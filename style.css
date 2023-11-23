@@ -1,0 +1,117 @@
+
+
+body{
+    font-family:'verdana';
+    margin: 0;
+    padding: 0;
+    
+    background-size:cover;
+    background-position:bottom 60px  left 10px;  
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+nav ul{
+    flex:1;
+    text-align: center;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+
+}
+nav .btn{
+    color: black;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+}
+.content{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 7%;
+    
+}
+.content h1{
+    font-size: 40px;
+    
+}
+.links{
+    position:absolute;
+    margin-top: 42%;
+    margin-left: 30%;
+    
+    
+}
+.links .custom{
+    padding: 10px 80px;
+    text-decoration: none;
+    color: #d7dbd8;
+    background-color:#454444;
+    border-radius: 50px;
+}
+.links .existing{
+    padding: 10px 80px;
+    text-decoration: none;
+    color:#454444;
+    background-color:#d7dbd8;
+    border-radius: 50px;
+}
+.RedCar{
+    width:100%;
+    height: 50%;
+}
+.BlueCar{
+    width: 100%;
+    height: 800px;
+    
+}
+.RedCar{
+    width: 100%;
+    height:800px ;
+}
+.WhiteCar{
+    width: 100%;
+    height: 800px;
+}
+.Panel{
+    width: 100%;
+    height: 800px;
+}
+.Roof{
+    width: 100%;
+    height: 800px;
+}
+.Acesories{
+    width: 100%;
+    height: 800px;
+}
+.links2 .custom{
+    position:absolute;
+    margin-top: 40%;
+    margin-left: 43%;
+    padding: 10px 80px;
+    text-decoration: none;
+    color:#d7dbd8;
+    background-color:#211f1f;
+    border-radius: 5px;
+
+}
